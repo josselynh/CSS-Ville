@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Plougastel Les Trifougnasses</title>
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Sintony|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/responsiveslides.css">
+<!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+</head>
+<body>
+  <!-- main wrapper  -->
+   <div id="bloc_page">
+    <!-- Header and navbar -->
+        <header>
+            <div id="titre_principal">
+                <div id="logo">
+                <img src="img/logo.png" alt="Plougastel">
+                    <h2>Plougastel Les Trifougnasses</h2>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Plages</a></li>
+                    <li><a href="#">Activités</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Carousel -->
+        <div id="bandeau">
+                <ul class="rslides">
+                    <li><img src="img/bateau001.jpg" alt=""></li>
+                    <li><img src="img/plage001.jpg" alt=""></li>
+                </ul>
+<!--            <img src="img/bateau001.jpg" alt="bateau">-->
+        </div>
+        <!-- end carousel -->
+
+        <!-- End header -->
+
+        <!-- section -->
+        <section>
+            <article>
+                <h1>Notre village</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+                <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
+            </article>
+            <aside>
+                <h1>L'Histoire du village</h1>
+                <img src="img/bulle.png" id="fleche_bulle" alt="fleche">
+                <p>Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus.Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam. </p>
+            </aside>
+        </section>
+        <!-- End section -->
+
+        <!-- footer -->
+        <footer>
+            <div id="tweet">
+                <h2>Tweet OT</h2>
+            </div>
+            <div id="mes_photos">
+               <h2>Photos</h2>
+                    <p>
+                        
+                        <a href="img/photo1big.jpg"  data-lightbox="image-1" data-title="C'est New-York"> <img src="img/photo1.jpg" alt="Photographie" /></a>
+                        <img src="img/photo2.jpg" alt="Photographie" />
+                        <img src="img/photo3.jpg" alt="Photographie" />
+                        <a href="img/photo4big.jpg" data-lightbox="image-4" data-title="Statue de la liberté"><img src="img/photo4.jpg" alt="Photographie" /></a>
+                        
+                    </p>
+            </div>
+            <div id="autres_ot">
+                <h2>Autres OT</h2>
+                    <div id="liste_ot">
+                        <ul>
+                            <li><a href="#">Troyes</a></li>
+                            <li><a href="#">Plougastel</a></li>
+                            <li><a href="#">Mergignac</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        $(function() {
+        $(".rslides").responsiveSlides();
+        });
+    </script>
+</body>
+</html>

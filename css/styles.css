@@ -1,0 +1,147 @@
+/* main elements */
+html{
+    background: url(../img/background.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color:white;
+}
+
+header section footer{
+    display: flex;
+    flex-direction: row;
+}
+#bloc_page{
+    width: 900px;
+    margin: auto;
+    font-family: 'Sintony', sans-serif;
+}
+section h1, section h2, footer h1, nav a{
+    font-family: 'Ubuntu', sans-serif;
+}
+a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+a:hover{
+    color: red;
+}
+/*  header  */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: url(../img/separateur.png) repeat-x bottom;
+}
+#titre_principal{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#logo img{
+    width: 59px;
+    height: 60px;
+}
+header h1{
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+header h2{
+    font-size:1.6em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* Navigation */
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav li{
+    margin-right: 15px;
+}
+/* bandeau carousel */
+#bandeau{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/* section & aside   */
+section{
+    display: flex;
+    margin-bottom: 20px;
+}
+article, aside {
+    text-align: justify;
+    margin: 0 5px;
+/*    color:black;*/
+    
+}
+article p, aside p{
+    font-size: 1em;
+/*    background-color: aliceblue;*/
+/*    opacity: 0.75;*/
+/*    color: black;*/
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+}
+aside{
+    position: relative;
+}
+#fleche_bulle{
+    position: absolute;
+    top: 65px;
+    left:-12px;
+}
+/* footer general */
+footer{
+    display: flex;
+/*    background: url(../img/ico_top.png) no-repeat top center;*/
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer p, footer url{
+    font-size: 0.8em;
+}
+footer h1 {
+    font-size: 2.5em;
+}
+footer h2{
+    font-size:1.6em;
+    font-weight: normal;
+    text-align: center;
+}
+#tweet{
+    width: 28%;
+}
+#mes_photos{
+    widows: 35%;
+}
+#autres_ot{
+    width: 35%;
+}
+#mes_photos img{
+    border: 1px solid black;
+    margin-right: 2px;
+}
+#liste_ot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:0;
+}
+#liste_ot ul{
+    list-style-image: url('../img/ico_liensexterne.png');
+}
